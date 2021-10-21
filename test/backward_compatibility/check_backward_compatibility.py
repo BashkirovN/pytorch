@@ -62,6 +62,8 @@ ALLOW_LIST = [
     ("aten::grid_sampler_2d_backward", datetime.date(2021, 10, 21)),
     ("prim::TensorExprDynamicGuard", datetime.date(2021, 11, 20)),
     ("aten::kl_div_backward", datetime.date(2021, 11, 20)),
+    ("aten::l1_loss_backward.grad_input", datetime.date(2021, 11, 20)),
+    ("aten::smooth_l1_loss_backward.grad_input", datetime.date(2021, 11, 20)),
 ]
 
 ALLOW_LIST_COMPILED = [
